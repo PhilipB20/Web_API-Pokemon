@@ -5,6 +5,10 @@ public class Pokemon
 {
     public string name { get; set; }
 
+    public int HP;
+
+    public int Type;
+
     public int id { get; set; }
     public bool is_default { get; set; }
     public List<ItemWrapper> held_items { get; set; }
