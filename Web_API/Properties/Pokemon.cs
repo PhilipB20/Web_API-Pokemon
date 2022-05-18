@@ -5,7 +5,7 @@ public class Pokemon
 {
     public string name { get; set; }
 
-    public int HP;
+    public int Hp;
 
     public int Type;
 
